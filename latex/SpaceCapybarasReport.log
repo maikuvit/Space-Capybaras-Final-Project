@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.12.2)  23 MAY 2023 18:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.12.2)  23 MAY 2023 19:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -413,7 +413,7 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 61.
  (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-<imgs/house.jpeg, id=25, 770.88pt x 770.88pt>
+<imgs/house.jpeg, id=41, 770.88pt x 770.88pt>
 File: imgs/house.jpeg Graphic file (type jpg)
 <use imgs/house.jpeg>
 Package pdftex.def Info: imgs/house.jpeg  used on input line 64.
@@ -423,22 +423,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 <to be read again> 
                    \relax 
 l.66 \newpage
-              [1 <./imgs/house.jpeg>] (chapters/introduction.tex) (chapters/business_understanding.tex [2]) [3] (SpaceCapybarasReport.aux)
+              [1 <./imgs/house.jpeg>] (chapters/introduction.tex) (chapters/business_understanding.tex [2] [3]) [4] (SpaceCapybarasReport.aux)
 Package rerunfilecheck Info: File `SpaceCapybarasReport.out' has not changed.
-(rerunfilecheck)             Checksum: 12C1B37BFBE31A4B38A2BC9F006A4F8D;521.
+(rerunfilecheck)             Checksum: FB6CE8E30704349CD7DC315D32AE750C;1203.
  ) 
 Here is how much of TeX's memory you used:
- 11787 strings out of 475284
- 186197 string characters out of 2774105
- 532495 words of memory out of 3000000
- 33072 multiletter control sequences out of 15000+600000
+ 11800 strings out of 475284
+ 186445 string characters out of 2774105
+ 532702 words of memory out of 3000000
+ 33080 multiletter control sequences out of 15000+600000
  477456 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,6n,77p,415b,499s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 72i,6n,77p,533b,501s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\danie\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on SpaceCapybarasReport.pdf (4 pages, 258810 bytes).
+Output written on SpaceCapybarasReport.pdf (5 pages, 267608 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 110 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
+ 70 words of extra memory for PDF output out of 10000 (max. 10000000)
 

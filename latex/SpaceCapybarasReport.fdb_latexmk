@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1684860927 "c:/Lovaion/University/Master/Machine Learning/Space-Capybaras-Final-Project/latex/SpaceCapybarasReport.tex" "SpaceCapybarasReport.pdf" "SpaceCapybarasReport" 1684860928 0
+["pdflatex"] 1684862154 "c:/Lovaion/University/Master/Machine Learning/Space-Capybaras-Final-Project/latex/SpaceCapybarasReport.tex" "SpaceCapybarasReport.pdf" "SpaceCapybarasReport" 1684862155 0
   "C:/Users/danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1684146897 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/danie/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1683540059 11548 cdda493025dcd7c022ba6c0def7e6fa8 ""
   "C:/Users/danie/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1683537477 688 37338d6ab346c2f1466b29e195316aa4 ""
@@ -99,11 +99,11 @@
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty" 1670406745 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "SpaceCapybarasReport.aux" 1684860928 1258 b9f02484e974aa89cc9d3530289bbf5d "pdflatex"
-  "SpaceCapybarasReport.out" 1684860928 521 12c1b37bfbe31a4b38a2bc9f006a4f8d "pdflatex"
+  "SpaceCapybarasReport.aux" 1684862155 2140 0550a0092951cae1d79e19977f56e44f "pdflatex"
+  "SpaceCapybarasReport.out" 1684862155 1203 fb6ce8e30704349cd7dc315d32ae750c "pdflatex"
   "SpaceCapybarasReport.tex" 1684860925 1520 bd9766cac6520b6a8a8ac0946f45b3e1 ""
   "c:/Lovaion/University/Master/Machine Learning/Space-Capybaras-Final-Project/latex/SpaceCapybarasReport.tex" 1684860925 1520 bd9766cac6520b6a8a8ac0946f45b3e1 ""
-  "chapters/business_understanding.tex" 1684860793 1765 4a76e00b6b6f32155654a162ece6326a ""
+  "chapters/business_understanding.tex" 1684862154 4502 bb7ddc54ad826058646bb7e394ebe69a ""
   "chapters/introduction.tex" 1684859542 1530 3128af96898fd0e9a5ef5f806a7cc7d7 ""
   "imgs/house.jpeg" 1684859891 153403 7a36824e48c862b78daecc8b7c66b185 ""
   (generated)
