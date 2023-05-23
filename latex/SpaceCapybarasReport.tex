@@ -1,0 +1,72 @@
+\documentclass[12]{article}
+
+%import packages for theoretical computer science stuff
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathrsfs}
+
+%import packages for images
+\usepackage{graphicx}
+\usepackage{float}
+
+%import packages for algorithms
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{listings}
+
+
+
+%setup document margins and spacing
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+
+
+%import packages for hyperlinks
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=purple,
+    filecolor=magenta,
+    urlcolor=cyan,
+}
+
+%begin document
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \textsc{\LARGE University of Calabria}\\[1.5cm]
+        \textsc{\Large Department of Mathematics and Computer Science}\\[0.5cm]
+        \textsc{\large Master's Degree in Computer Science}\\[0.5cm]
+        \textsc{\large Machine Learning}\\[0.5cm]
+    \end{center}
+\end{titlepage}
+
+\title{Machine Learning - House Prices Analysis}
+%insert 5 members of the group
+\author{Daniele Avolio\\
+    \and
+    Alessandro Fazio\\
+    \and
+    Merem Hassem Indiris\\
+    \and
+    Michele Vitale\\
+    \and
+    Lorenzo Piro\\}
+\date{A.Y. 2022/2023}
+
+\maketitle
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{imgs/house.jpeg}
+\end{figure}
+\newpage
+
+
+
+\input{chapters/introduction.tex}
+\input{chapters/business_understanding.tex}
+\end{document}

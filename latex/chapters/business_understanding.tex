@@ -1,0 +1,37 @@
+\section{Business understanding}
+\label{sec:business_understanding}
+
+\subsection{Background}
+Our project is based using the dataset of the Kaggle competition \href{https://www.kaggle.com/c/house-prices-advanced-regression-techniques}{House Prices: Advanced Regression Techniques}. 
+
+The goal of the competition is to predict the final price of each home based on 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa.
+The dataset is composed by 1460 rows and 81 columns, where the last column is the target variable, the Sale Price.
+
+A small list of the variables is the following:
+
+\begin{itemize}
+    \item \textbf{LotArea}: Lot size in square feet
+    \item \textbf{OverallQual}: Overall material and finish quality
+    \item \textbf{OverallCond}: Overall condition rating
+    \item \textbf{YearBuilt}: Original construction date
+    \item \textbf{YearRemodAdd}: Remodel date
+    \item \textbf{RoofStyle}: Type of roof
+    \item \textbf{Exterior1st}: Exterior covering on house
+    \item \textbf{Exterior2nd}: Exterior covering on house (if more than one material)
+    \item \textbf{MasVnrType}: Masonry veneer type
+    \item \textbf{MasVnrArea}: Masonry veneer area in square feet
+    \item \dots
+\end{itemize}
+\subsection{Business objectives}
+\label{subsec:business_objectives}
+
+In this part we are going to analyze the business objective of the project.
+Our goal is different from the one of the competition, in fact we are requested to \textbf{convert the Sale Price variable into 3 ranges}:
+
+\begin{enumerate}
+    \item \textbf{LOW}: From 0 to 150000 
+    \item \textbf{MEDIUM}: From 150000 to 300000 
+    \item \textbf{HIGH}: From 300000 and beyond 
+\end{enumerate}
+
+The dataset 
