@@ -1,0 +1,10 @@
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Business understanding}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Background}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Business objectives}{4}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Business success criteria}{5}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Assessment of the situation}{5}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Inventory of resources}{5}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Project Plan}{6}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Data understanding}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Data description}{7}{section.3.1}%

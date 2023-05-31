@@ -1,0 +1,188 @@
+
+
+
+\chapter{Data understanding}
+\label{sec:data_understanding}
+
+\section{Data description}
+\label{sec:data_description}
+
+The dataset we are using, House Prices - Advanced Regression Techniques, is a dataset containing 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa. The dataset is composed of 1460 rows, each one representing a house, and 81 columns, 80 of which are features and 1 is the target variable, the SalePrice.
+
+With the dataset is provided a \textit{data description} with the description for each variable in thedataset.
+
+%split the table in two parts
+\begin{table}[H]
+    \centering
+    \begin{longtable}{|l|l|}
+        \hline
+        Variable      & Description                                                 \\
+        \hline
+        SalePrice     & The property's sale price in dollars. (Target variable)     \\
+        \hline
+        MSSubClass    & The building class                                          \\
+        \hline
+        MSZoning      & The general zoning classification                           \\
+        \hline
+        LotFrontage   & Linear feet of street connected to property                 \\
+        \hline
+        LotArea       & Lot size in square feet                                     \\
+        \hline
+        Street        & Type of road access                                         \\
+        \hline
+        Alley         & Type of alley access                                        \\
+        \hline
+        LotShape      & General shape of property                                   \\
+        \hline
+        LandContour   & Flatness of the property                                    \\
+        \hline
+        Utilities     & Type of utilities available                                 \\
+        \hline
+        LotConfig     & Lot configuration                                           \\
+        \hline
+        LandSlope     & Slope of property                                           \\
+        \hline
+        Neighborhood  & Physical locations within Ames city limits                  \\
+        \hline
+        Condition1    & Proximity to main road or railroad                          \\
+        \hline
+        Condition2    & Proximity to main road or railroad (if a second is present) \\
+        \hline
+        BldgType      & Type of dwelling                                            \\
+        \hline
+        HouseStyle    & Style of dwelling                                           \\
+        \hline
+        OverallQual   & Overall material and finish quality                         \\
+        \hline
+        OverallCond   & Overall condition rating                                    \\
+        \hline
+        YearBuilt     & Original construction date                                  \\
+        \hline
+        YearRemodAdd  & Remodel date                                                \\
+        \hline
+        RoofStyle     & Type of roof                                                \\
+        \hline
+        RoofMatl      & Roof material                                               \\
+        \hline
+        Exterior1st   & Exterior covering on house                                  \\
+        \hline
+        Exterior2nd   & Exterior covering on house (if more than one material)      \\
+        \hline
+        MasVnrType    & Masonry veneer type                                         \\
+        \hline
+        MasVnrArea    & Masonry veneer area in square feet                          \\
+        \hline
+        ExterQual     & Exterior material quality                                   \\
+        \hline
+        ExterCond     & Present condition of the material on the exterior           \\
+        \hline
+        Foundation    & Type of foundation                                          \\
+        \hline
+        BsmtQual      & Height of the basement                                      \\
+        \hline
+        BsmtCond      & General condition of the basement                           \\
+        \hline
+        BsmtExposure  & Walkout or garden level basement walls                      \\
+        \hline
+        BsmtFinType1  & Quality of basement finished area                           \\
+        \hline
+        BsmtFinSF1    & Type 1 finished square feet                                 \\
+        \hline
+        BsmtFinType2  & Quality of second finished area (if present)                \\
+        \hline
+        BsmtFinSF2    & Type 2 finished square feet                                 \\
+        \hline
+        BsmtUnfSF     & Unfinished square feet of basement area                     \\
+        \hline
+        TotalBsmtSF   & Total square feet of basement area                          \\
+        \hline
+        Heating       & Type of heating                                             \\
+        \hline
+        HeatingQC     & Heating quality and condition                               \\
+        \hline
+        CentralAir    & Central air conditioning                                    \\
+        \hline
+        Electrical    & Electrical system                                           \\
+        \hline
+        1stFlrSF      & First Floor square feet                                     \\
+        \hline
+        2ndFlrSF      & Second floor square feet                                    \\
+        \hline
+        LowQualFinSF  & Low quality finished square feet (all floors)               \\
+        \hline
+        GrLivArea     & Above grade (ground) living area square feet                \\
+        \hline
+        BsmtFullBath  & Basement full bathrooms                                     \\
+        \hline
+        BsmtHalfBath  & Basement half bathrooms                                     \\
+        \hline
+        FullBath      & Full bathrooms above grade                                  \\
+        \hline
+        HalfBath      & Half baths above grade                                      \\
+        \hline
+        Bedroom       & Number of bedrooms above basement level                     \\
+        \hline
+        Kitchen       & Number of kitchens                                          \\
+        \hline
+        KitchenQual   & Kitchen quality                                             \\
+        \hline
+        TotRmsAbvGrd  & Total rooms above grade (does not include bathrooms)        \\
+        \hline
+        Functional    & Home functionality rating                                   \\
+        \hline
+        Fireplaces    & Number of fireplaces                                        \\
+        \hline
+        FireplaceQu   & Fireplace quality                                           \\
+        \hline
+        GarageType    & Garage location                                             \\
+        \hline
+        GarageYrBlt   & Year garage was built                                       \\
+        \hline
+        GarageFinish  & Interior finish of the garage                               \\
+        \hline
+        GarageCars    & Size of garage in car capacity                              \\
+        \hline
+        GarageArea    & Size of garage in square feet                               \\
+        \hline
+        GarageQual    & Garage quality                                              \\
+        \hline
+        GarageCond    & Garage condition                                            \\
+        \hline
+        PavedDrive    & Paved driveway                                              \\
+        \hline
+        WoodDeckSF    & Wood deck area in square feet                               \\
+        \hline
+        OpenPorchSF   & Open porch area in square feet                              \\
+        \hline
+        EnclosedPorch & Enclosed porch area in square feet                          \\
+        \hline
+        3SsnPorch     & Three season porch area in square feet                      \\
+        \hline
+        ScreenPorch   & Screen porch area in square feet                            \\
+        \hline
+        PoolArea      & Pool area in square feet                                    \\
+        \hline
+        Pool Area     & Pool area in square feet                                    \\
+        \hline
+        PoolQC        & Pool quality                                                \\
+        \hline
+        Fence         & Fence quality                                               \\
+        \hline
+        MiscFeature   & Miscellaneous feature not covered in other categories       \\
+        \hline
+        MiscVal       & Value of miscellaneous feature in dollars                   \\
+        \hline
+        MoSold        & Month Sold                                                  \\
+        \hline
+        YrSold        & Year Sold                                                   \\
+        \hline
+        SaleType      & Type of sale                                                \\
+        \hline
+        SaleCondition & Condition of sale                                           \\
+        \hline
+    \end{longtable}
+
+    \caption{Data description (1/2)}
+    \label{tab:data_description_1}
+
+\end{table}

@@ -1,4 +1,4 @@
-\documentclass[12]{article}
+\documentclass[12]{report}
 
 %import packages for theoretical computer science stuff
 \usepackage{amsmath}
@@ -17,6 +17,15 @@
 
 
 
+\usepackage{longtable}
+
+
+%import packages for automata
+\usepackage{tikz}
+\usetikzlibrary{automata,positioning}
+\usetikzlibrary{graphs,positioning}
+\usetikzlibrary{chains,fit,shapes}
+
 %setup document margins and spacing
 \usepackage[margin=1in]{geometry}
 \usepackage{setspace}
@@ -32,23 +41,15 @@
     urlcolor=cyan,
 }
 
+
 %begin document
 \begin{document}
 
-\begin{titlepage}
-    \begin{center}
-        \textsc{\LARGE University of Calabria}\\[1.5cm]
-        \textsc{\Large Department of Mathematics and Computer Science}\\[0.5cm]
-        \textsc{\large Master's Degree in Computer Science}\\[0.5cm]
-        \textsc{\large Machine Learning}\\[0.5cm]
-    \end{center}
-\end{titlepage}
-
 \title{Machine Learning - House Prices Analysis}
 %insert 5 members of the group
-\author{Daniele Avolio\\
+\author{Daniele Avolio : 242423\\
     \and
-    Alessandro Fazio\\
+    Alessandro Fazio : 242422\\
     \and
     Merem Hassem Indiris\\
     \and
@@ -56,17 +57,25 @@
     \and
     Lorenzo Piro\\}
 \date{A.Y. 2022/2023}
-
 \maketitle
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.6\textwidth]{imgs/house.jpeg}
-\end{figure}
+
+\begin{titlepage}
+    %insert a fullpage cover image without considering margins
+    \noindent\makebox[\textwidth]{%
+        \includegraphics[width=\paperwidth,height=\paperheight]{imgs/project cover.png}
+    }
+\end{titlepage}
+
+\tableofcontents
+
+
+
 \newpage
 
 
 
 \input{chapters/introduction.tex}
 \input{chapters/business_understanding.tex}
+\input{chapters/data_understanding.tex}
 \end{document}

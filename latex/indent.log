@@ -1,12 +1,12 @@
 INFO:  latexindent.pl version 3.20.6, 2023-04-11, a script to indent .tex files
        latexindent.pl lives here: C:/Users/danie/AppData/Local/Programs/MiKTeX/scripts/latexindent/
-       Tue May 23 18:25:34 2023
-       Filename: c:/Lovaion/University/Master/Machine Learning/Space-Capybaras-Final-Project/chapters/__latexindent_temp_introduction.tex
+       Fri May 26 16:26:36 2023
+       Filename: c:/Lovaion/University/Master/Machine Learning/Space-Capybaras-Final-Project/latex/chapters/__latexindent_temp_data_understanding.tex
 INFO:  Processing switches:
        -y|--yaml: YAML settings specified via command line
        -c|--cruft: cruft directory
-INFO:  Directory for backup files and c:/Lovaion/University/Master/Machine Learning/Space-Capybaras-Final-Project//indent.log:
-       c:/Lovaion/University/Master/Machine Learning/Space-Capybaras-Final-Project/
+INFO:  Directory for backup files and c:/Lovaion/University/Master/Machine Learning/Space-Capybaras-Final-Project/latex//indent.log:
+       c:/Lovaion/University/Master/Machine Learning/Space-Capybaras-Final-Project/latex/
 INFO:  Perl modules are being loaded from the following directories:
        C:/Strawberry/perl/lib/FindBin.pm
        C:/Strawberry/perl/vendor/lib/YAML/Tiny.pm

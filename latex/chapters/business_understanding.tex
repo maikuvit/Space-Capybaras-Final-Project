@@ -1,7 +1,7 @@
-\section{Business understanding}
+\chapter{Business understanding}
 \label{sec:business_understanding}
 
-\subsection{Background}
+\section{Background}
 Our project is based using the dataset of the Kaggle competition \href{https://www.kaggle.com/c/house-prices-advanced-regression-techniques}{House Prices: Advanced Regression Techniques}. 
 
 The goal of the competition is to predict the final price of each home based on 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa.
@@ -22,7 +22,7 @@ A small list of the variables is the following:
     \item \textbf{MasVnrArea}: Masonry veneer area in square feet
     \item \dots
 \end{itemize}
-\subsection{Business objectives}
+\section{Business objectives}
 \label{subsec:business_objectives}
 
 In this part we are going to analyze the business objective of the project.
@@ -37,11 +37,11 @@ Our goal is different from the one of the competition, in fact we are requested 
 So, our goal is to predict a categorical variable with 3 possible values, instead of a continuous variable. 
 This is a very important difference, because we are not interested in the exact value of the Sale Price, but only in the range in which it falls.
 
-\subsection{Business success criteria}
+\section{Business success criteria}
 \label{subsec:business_success_criteria}
 The success criteria of the project is to obtain a model that is able to predict the Sale Price range with a good accuracy. In particular, we want to create a model that is able to predict the Sale Price range with an accuracy of at least SOMETHING.
 
-\subsection{Assessment of the situation}
+\section{Assessment of the situation}
 \label{subsec:assessment_of_the_situation}
 
 There is a very important aspect that we have to consider: there are a lot of variables in the dataset that contains a values of \textbf{NA}, that could leat to thinking that the value is missing.
@@ -50,7 +50,7 @@ Actually, this is not always true. In particular, the description of the dataset
 
 There are more variables that have a similar meaning for the \textbf{NA} value, so we have to be careful when we are going to handle the missing values. For this project, we are going to assume that the \textbf{NA} value is not missing but is just a value that has a meaning. If we need to drop the column, will be specified in the particular section
 
-\subsection{Inventory of resources}
+\section{Inventory of resources}
 \label{subsec:inventory_of_resources}
 
 For this project, we are going to use the following resources:
@@ -65,7 +65,7 @@ For this project, we are going to use the following resources:
     \item \textbf{Scikit-learn}: The library used for the machine learning 
 \end{itemize}
 
-\subsection{Project Plan}
+\section{Project Plan}
 \label{subsec:project_plan}
 
 The development of the project will be divided into 5 main phases, that are split like this:
@@ -79,3 +79,4 @@ The development of the project will be divided into 5 main phases, that are spli
     \item \textbf{Phase 5}: Deployment (1 week)
 \end{itemize}
 
+\newpage
