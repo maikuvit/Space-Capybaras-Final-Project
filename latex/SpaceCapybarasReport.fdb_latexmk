@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1685638771 "c:/Lovaion/University/Master/Machine Learning/Space-Capybaras-Final-Project/latex/SpaceCapybarasReport.tex" "SpaceCapybarasReport.pdf" "SpaceCapybarasReport" 1685638774 0
+["pdflatex"] 1685717613 "c:/Lovaion/University/Master/Machine Learning/Space-Capybaras-Final-Project/latex/SpaceCapybarasReport.tex" "SpaceCapybarasReport.pdf" "SpaceCapybarasReport" 1685717616 0
   "C:/Users/danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1685638442 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/danie/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1683540059 11548 cdda493025dcd7c022ba6c0def7e6fa8 ""
   "C:/Users/danie/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1683537477 688 37338d6ab346c2f1466b29e195316aa4 ""
@@ -193,13 +193,13 @@
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/tex/latex/tools/longtable.sty" 1654690828 12892 af5f5e872a6e322f3e5ba2c881288a56 ""
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "SpaceCapybarasReport.aux" 1685638774 5090 7c709f92402b254c4edb2b8e9d51af40 "pdflatex"
-  "SpaceCapybarasReport.out" 1685638774 2113 1ca5d80eaea1b43e8885790556ca3b68 "pdflatex"
+  "SpaceCapybarasReport.aux" 1685717615 5090 7c709f92402b254c4edb2b8e9d51af40 "pdflatex"
+  "SpaceCapybarasReport.out" 1685717615 2113 1ca5d80eaea1b43e8885790556ca3b68 "pdflatex"
   "SpaceCapybarasReport.tex" 1685638564 1676 9e27b3ce100dbeade6b18d68cd728419 ""
-  "SpaceCapybarasReport.toc" 1685638774 1063 6f9125d9c2e7fc4bd741d687881d7bf9 "pdflatex"
+  "SpaceCapybarasReport.toc" 1685717615 1063 6f9125d9c2e7fc4bd741d687881d7bf9 "pdflatex"
   "c:/Lovaion/University/Master/Machine Learning/Space-Capybaras-Final-Project/latex/SpaceCapybarasReport.tex" 1685638564 1676 9e27b3ce100dbeade6b18d68cd728419 ""
   "chapters/business_understanding.tex" 1685109776 4492 6d38fc11b9cabbfb1d323f518152ed22 ""
-  "chapters/data_understanding.tex" 1685638768 20456 6075ff9bb078a1694699d8fd74186a4d ""
+  "chapters/data_understanding.tex" 1685717612 20456 83df978c09daeb0fb511140574d397c0 ""
   "chapters/introduction.tex" 1685109713 1710 352404d8848c0bbabb58a08a0a7f6467 ""
   "imgs/crisp.png" 1685109658 132893 88594886e9a51471eae6cdb7cce2f463 ""
   "imgs/desc1.png" 1685636903 50892 df34cd4be1c50b4c8a7151a183b30566 ""

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.12.2)  1 JUN 2023 18:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.12.2)  2 JUN 2023 16:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1003,10 +1003,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: imgs/info3.png Graphic file (type png)
 <use imgs/info3.png>
 Package pdftex.def Info: imgs/info3.png  used on input line 366.
-(pdftex.def)             Requested size: 375.80544pt x 761.25595pt.
-
-LaTeX Warning: Float too large for page by 132.82594pt on input line 369.
-
+(pdftex.def)             Requested size: 234.8775pt x 475.75725pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1014,10 +1011,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: imgs/info4.png Graphic file (type png)
 <use imgs/info4.png>
 Package pdftex.def Info: imgs/info4.png  used on input line 373.
-(pdftex.def)             Requested size: 375.80544pt x 696.55925pt.
-
-LaTeX Warning: Float too large for page by 68.12924pt on input line 376.
-
+(pdftex.def)             Requested size: 234.8775pt x 435.34396pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1034,7 +1028,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  84i,9n,89p,533b,1865s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\danie\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on SpaceCapybarasReport.pdf (20 pages, 8724348 bytes).
+Output written on SpaceCapybarasReport.pdf (20 pages, 8724350 bytes).
 PDF statistics:
  375 PDF objects out of 1000 (max. 8388607)
  158 named destinations out of 1000 (max. 500000)
