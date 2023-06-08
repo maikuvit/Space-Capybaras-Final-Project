@@ -1,0 +1,58 @@
+\chapter{Data preparation}
+\label{sec:data_preparation}
+
+\section{Data pruning}
+As previosly seen, many of the features were not encoding patterns, evenly distributed and significant into the specific domain, so we dropped them.
+This reduced the total amount of features, from the 79 starting ones, to 43. \\
+An interesting consideration comes out of the FirePlaceQ attribute, which in the data description corresponds to:
+\begin{verbatim}
+    FireplaceQu: Fireplace quality
+
+    Ex	Excellent - Exceptional Masonry Fireplace
+    Gd	Good - Masonry Fireplace in main level
+    TA	Average - Prefabricated Fireplace in main living area or Masonry Fireplace in basement
+    Fa	Fair - Prefabricated Fireplace in basement
+    Po	Poor - Ben Franklin Stove
+    NA	No Fireplace
+\end{verbatim}
+\begin{center}
+    \includegraphics*[width=300px]{imgs/FirePlaceQu.png}
+    \label{FirePlaceQu distribution}
+\end{center}
+This might seem an interesting attribute to take into account. However, looking at the distribution based on target category, we can note that each one of the labels different from the one encoding "No Fireplace" have a similar distribution, which does not seems to be strictly related to the category itself. 
+In practise, the overall quality of the fireplace might not be directly related to the final price, but instead the presence of a fireplace definitely is important into the evaluation process. Since that information is already expressed by the \emph{Fireplaces} attribute, we can drop \emph{FireplaceQu}.
+
+
+\section{Conversion,binarization, encoding}
+Some variables, even if scaled on numbers, were encoding a categorical information. Specifically, the following have been converted in categorical object type: 
+\begin{itemize}
+    \item Fireplaces
+    \item FullBath
+    \item HalfBath
+    \item MSSubClass
+    \item YrSold
+\end{itemize}
+
+We decided to binarize some features that are unbalanced, but relevant in the context:
+\begin{itemize}
+    \item Fence
+    \item LotConfig
+    \item LotShape
+\end{itemize}
+
+To better understand the reasons that lead us to that, let's consider the Fence attribute.
+
+\begin{center}
+    \includegraphics*[width=300px]{imgs/Fence.png}
+    \label{Fence distribution}
+\end{center}
+The majority of the houses have no fence at all. Those who have them are split into different fence types, which generate as result that classes are very unbalanced, but conceptually divisible in two macro-categories \emph{Has\_Fence/No\_Fence}.
+Also, from business knowledge, we can say that probably the specific type of fence does not reasonably infer a lot into the final sale price,even less not on an integer but on a price category. \\
+We then decided to keep the feature, but grouping the values in the two previously quoted categories.\\
+\\Finally, we applied the one-hot-encoding on the remaining categorical variables, creating a dummy binary value for every category on each variable in the dataset.\\
+\\The final shape of our dataset, after all the data cleaning process, is 
+\begin{verbatim}
+    df.shape
+    (1460, 44)
+\end{verbatim}
+At the end of this phase we decided to save, just for practical reasons, the edited dataframe in a new .parquet file, a specific type designed to store and load data in a space and time efficient way.

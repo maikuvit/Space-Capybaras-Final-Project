@@ -220,8 +220,6 @@ In this project, as a team we decided to consider those variables \textbf{not nu
 
 Note that this is not related to the other variables, since the variables not mentioned in the above list have the value 'NA' to indicate \textbf{null value}. For example, if in some rows the feature "MasVnrType" has the value "NA", it means that the value is null and not that the house doesn't have a masonry veneer type.
 
-\textbf{If something is missing please fill this section.}
-
 \section{Data exploration}
 \label{sec:data_exploration}
 
@@ -353,24 +351,77 @@ The action carried out in this part are the following:
     \caption{Numerical info 1}
     \label{fig:info1}
 \end{figure}
-
+\newpage
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\textwidth]{imgs/info2.png}
     \caption{Numerical info 2}
     \label{fig:info2}
 \end{figure}
-
+\newpage
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.5\textwidth]{imgs/info3.png}
     \caption{Categorical info 1}
     \label{fig:info3}
 \end{figure}
-
+\newpage
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.5\textwidth]{imgs/info4.png}
     \caption{Categorical info 2}
     \label{fig:info4}
 \end{figure}
+\newpage
+
+\subsection{Plotting}
+
+\subsubsection*{Target variable}
+As it can be seen in the graph, the target variable is strongly unbalanced, and in particular the label "HIGH" has very few data compared to the other two.\\
+This will be taken into account during the modeling phase, considering also some oversampling techniques.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{imgs/SalePrice.png}
+    \caption{}
+    \label{SalePrice distribution}
+\end{figure}
+
+\subsubsection*{Features}
+After dropping some attributes for better visualization, we proceeded to analyze the distribution of the numerical attributes. This analysis provided us with valuable insights, which aided us in making decisions regarding the removal or transformation of certain numerical attributes into categorical ones. \\
+By examining the distribution of numerical attributes, we gained a deeper understanding of their characteristics. These insights allowed us to determine which attributes could be removed without significant loss of information and which attributes could be better represented as categorical variables. \\
+During the analysis of the numerical attributes, we discovered that about eleven of these attributes exhibited a right-skewed distribution; some just even had one value (LowQualityFinSF). Upon identifying this right-skewed behavior, we evaluated the relevance of these attributes to our analysis objectives. 
+These attributes are: 
+\begin{itemize}
+\item lotArea 
+\item MasVnrArea
+\item BsmtFinSF2
+\item LowQualFinSF
+\item ScreenPorch
+\item MiscVal
+\item PoolArea
+\item EnclosedPorch
+\item BsmtHalfBath
+\item 3SsnPorch
+\item KitchenAbvGr
+\end{itemize}
+
+
+TO ADD: IMAGES ON WORD
+
+Among the numerical attributes, we observed that certain attributes exhibited interesting distributions. 
+In particular, we noticed that the data were distributed almost evenly across the entire range, this attributes will help us design a good model.
+
+\begin{itemize}
+\item 1stFlrSF
+\item BsmtUnfSF
+\item GarageArea
+\item MsSubClass
+\item TotsRmsAbvGrd
+\item OverallQual
+\item YearRemodAdd
+\item YearBuilt
+\end{itemize}
+
+
+TO FINISH FROM MEREM DOC, WILL DO IT LATER TO SYNTETIZE IT IF WE NEED TO.
+
