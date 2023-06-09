@@ -1,26 +1,35 @@
-\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Business understanding}{4}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Background}{4}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Business objectives}{4}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Business success criteria}{5}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Assessment of the situation}{5}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Inventory of resources}{5}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Project Plan}{6}{section.2.6}%
-\contentsline {chapter}{\numberline {3}Data understanding}{7}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Data description}{7}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Data exploration}{12}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Preliminary operation on data preparation}{14}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Data Exploration - More in depth}{15}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Plotting}{19}{subsection.3.2.3}%
-\contentsline {chapter}{\numberline {4}Data preparation}{21}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Data pruning}{21}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Conversion,binarization, encoding}{22}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Modeling and model evaluation}{24}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Preliminary operations}{24}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Decision Tree Classifier}{24}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Random Forest}{24}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Gradient Boosting Classifier}{24}{subsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.1.4}AdaBoost Classifier}{24}{subsection.5.1.4}%
-\contentsline {subsection}{\numberline {5.1.5}Gaussian Naive Bayes Classifier}{24}{subsection.5.1.5}%
-\contentsline {subsection}{\numberline {5.1.6}K-Neighborhood classifier}{24}{subsection.5.1.6}%
-\contentsline {subsection}{\numberline {5.1.7}Support Vector Classifier}{24}{subsection.5.1.7}%
+\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Business understanding}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Background}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Business objectives}{5}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Business success criteria}{6}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Assessment of the situation}{6}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Inventory of resources}{6}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Project Plan}{7}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Data understanding}{8}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Data description}{8}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Data exploration}{13}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Preliminary operation on data preparation}{15}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Data Exploration - More in depth}{16}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Plotting}{20}{subsection.3.2.3}%
+\contentsline {chapter}{\numberline {4}Data preparation}{22}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Data pruning}{22}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Conversion,binarization, encoding}{23}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Data normalization}{24}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Modeling and model evaluation}{25}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Preliminary operations}{25}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Decision Tree Classifier}{25}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Random Forest}{25}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Gradient Boosting Classifier}{25}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}AdaBoost Classifier}{26}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}Gaussian Naive Bayes Classifier}{26}{subsection.5.1.5}%
+\contentsline {subsection}{\numberline {5.1.6}K-Neighborhood classifier}{26}{subsection.5.1.6}%
+\contentsline {subsection}{\numberline {5.1.7}Support Vector Classifier}{26}{subsection.5.1.7}%
+\contentsline {section}{\numberline {5.2}Train and test splits and oversampling}{26}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}BorderlineSMOTE}{27}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}Parameter tuning}{27}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Model Evaluation}{27}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}K-fold cross-validation}{28}{subsection.5.4.1}%
+\contentsline {section}{\numberline {5.5}Feature Selection | SelectKBest}{30}{section.5.5}%
+\contentsline {section}{\numberline {5.6}ROC Curve}{30}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Performance}{33}{subsection.5.6.1}%
