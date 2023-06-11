@@ -12,24 +12,24 @@
 \contentsline {subsection}{\numberline {3.2.1}Preliminary operation on data preparation}{15}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Data Exploration - More in depth}{16}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Plotting}{20}{subsection.3.2.3}%
-\contentsline {chapter}{\numberline {4}Data preparation}{22}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Data pruning}{22}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Conversion,binarization, encoding}{23}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Data normalization}{24}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Modeling and model evaluation}{25}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Preliminary operations}{25}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Decision Tree Classifier}{25}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Random Forest}{25}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Gradient Boosting Classifier}{25}{subsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.1.4}AdaBoost Classifier}{26}{subsection.5.1.4}%
-\contentsline {subsection}{\numberline {5.1.5}Gaussian Naive Bayes Classifier}{26}{subsection.5.1.5}%
-\contentsline {subsection}{\numberline {5.1.6}K-Neighborhood classifier}{26}{subsection.5.1.6}%
-\contentsline {subsection}{\numberline {5.1.7}Support Vector Classifier}{26}{subsection.5.1.7}%
-\contentsline {section}{\numberline {5.2}Train and test splits and oversampling}{26}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}BorderlineSMOTE}{27}{subsection.5.2.1}%
-\contentsline {section}{\numberline {5.3}Parameter tuning}{27}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Model Evaluation}{27}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}K-fold cross-validation}{28}{subsection.5.4.1}%
-\contentsline {section}{\numberline {5.5}Feature Selection | SelectKBest}{30}{section.5.5}%
-\contentsline {section}{\numberline {5.6}ROC Curve}{30}{section.5.6}%
-\contentsline {subsection}{\numberline {5.6.1}Performance}{33}{subsection.5.6.1}%
+\contentsline {chapter}{\numberline {4}Data preparation}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Data pruning}{21}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Conversion,binarization, encoding}{22}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Data normalization}{23}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Modeling and model evaluation}{24}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Preliminary operations}{24}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Decision Tree Classifier}{24}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Random Forest}{24}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Gradient Boosting Classifier}{24}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}AdaBoost Classifier}{25}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}Gaussian Naive Bayes Classifier}{25}{subsection.5.1.5}%
+\contentsline {subsection}{\numberline {5.1.6}K-Neighborhood classifier}{25}{subsection.5.1.6}%
+\contentsline {subsection}{\numberline {5.1.7}Support Vector Classifier}{25}{subsection.5.1.7}%
+\contentsline {section}{\numberline {5.2}Train and test splits and oversampling}{25}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}BorderlineSMOTE}{26}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}Parameter tuning}{26}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Model Evaluation}{26}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}K-fold cross-validation}{27}{subsection.5.4.1}%
+\contentsline {section}{\numberline {5.5}Feature Selection | SelectKBest}{29}{section.5.5}%
+\contentsline {section}{\numberline {5.6}ROC Curve}{29}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Performance}{32}{subsection.5.6.1}%
