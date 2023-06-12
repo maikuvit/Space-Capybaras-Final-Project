@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1686513999 "/home/maiku/Documents/Machine_learning/Project/latex/SpaceCapybarasReport.tex" "SpaceCapybarasReport.pdf" "SpaceCapybarasReport" 1686514002 0
+["pdflatex"] 1686565068 "/home/maiku/Documents/Machine_learning/Project/latex/SpaceCapybarasReport.tex" "SpaceCapybarasReport.pdf" "SpaceCapybarasReport" 1686565072 0
   "/home/maiku/Documents/Machine_learning/Project/latex/SpaceCapybarasReport.tex" 1686247285 1669 fbe9d2e9854124b966a588d79fdca25e ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1680514707 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1680514707 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -197,15 +197,15 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1680514707 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1685956630 4491781 539e3b5e308794ddb50e5f94f0e971f4 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1685956615 8203965 6d8394bda8b120fe6d37481f4e24f772 ""
-  "SpaceCapybarasReport.aux" 1686514002 10213 2508dc2ac42709fb39154dc04861e0e9 "pdflatex"
-  "SpaceCapybarasReport.out" 1686514002 5784 add597a15acf33d769779e0f12df67af "pdflatex"
+  "SpaceCapybarasReport.aux" 1686565071 10470 19e3f9dafe008266a38337799eccd573 "pdflatex"
+  "SpaceCapybarasReport.out" 1686565071 6171 bf6e7bd9a8f22d035804a2044ceec666 "pdflatex"
   "SpaceCapybarasReport.tex" 1686247285 1669 fbe9d2e9854124b966a588d79fdca25e ""
-  "SpaceCapybarasReport.toc" 1686514002 2969 7a691b2d0970f68ed360dd686ce389bd "pdflatex"
+  "SpaceCapybarasReport.toc" 1686565071 3144 0f1c34143fb6cfbd0fbdfea17cb274d4 "pdflatex"
   "chapters/business_understanding.tex" 1686149286 4344 b5f267f713356f01f1d3fc4f77bbf117 ""
-  "chapters/data_preparation.tex" 1686493374 3664 8dabc46f471c6e543475b51a3ac48878 ""
+  "chapters/data_preparation.tex" 1686563903 4181 3979b3d05b57b3992a31182f06689b54 ""
   "chapters/data_understanding.tex" 1686503694 22405 1f820ca16709574624c15a2f837caaf4 ""
   "chapters/introduction.tex" 1685532416 1688 352404d8848c0bbabb58a08a0a7f6467 ""
-  "chapters/modeling.tex" 1686497164 15430 237b9fc1cfcf8d32479b71c88ec3e136 ""
+  "chapters/modeling.tex" 1686565068 16192 4c18e34d58c2650240b5d67889f16fff ""
   "imgs/Fence.png" 1686229641 15380 c6b260c09eb6b9fcaff24093ddb985fc ""
   "imgs/FirePlaceQu.png" 1686230908 15936 c3ebdcac882c51973d69d6fc3644bab5 ""
   "imgs/SalePrice.png" 1686148718 532444 8568e6b8ec487d0dc5fff61e667ccc73 ""
