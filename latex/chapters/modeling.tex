@@ -54,7 +54,7 @@ The Gaussian Naive Bayes model achieved the lowest accuracy among all models, in
 
 The K-nearest Neighbors and Decision Tree models exhibited similar performance with reasonably good accuracy, precision, recall, and F1-score. The confusion matrices indicated some misclassifications across the classes, but overall, these models performed adequately.
 
-In contrast, the Support Vector Machine model had lower accuracy compared to most other models. The precision, recall, and F1-score aligned with the accuracy, suggesting a moderate performance. The confusion matrix highlighted misclassifications, especially with false positives in the majority class.
+In contrast, the Support Vector Classifier model had lower accuracy compared to most other models. The precision, recall, and F1-score aligned with the accuracy, suggesting a moderate performance. The confusion matrix highlighted misclassifications, especially with false positives in the majority class.
 
 \begin{figure}[h!]
     \centering
@@ -89,7 +89,7 @@ Analyzing the scores, we can observe the following:
     \item  Random Forest (RF) and Gradient Boosting (GB) consistently achieved high scores across all folds, indicating strong performance and good generalization ability. These models consistently outperformed the other models in terms of accuracy.
     \item Adaboost (AB) had relatively lower scores compared to RF and GB, but it still displayed decent performance across most folds. It showed some variability in performance, with scores ranging from moderate to good.
     \item Gaussian Naive Bayes (NB) had mixed performance, with scores varying across folds. It achieved relatively lower scores compared to RF, GB, and AB, indicating that it struggled to capture the complexities of the dataset.
-    \item K-nearest Neighbors (KNN) and Decision Tree (DT) models had scores that varied across folds but generally performed at a moderate level. They were outperformed by RF and GB but showed comparable performance to AB and NB.
+    \item K-nearest Neighbors (KNN),Decision Tree (DT) and Support Vector Classifier (SVC) models had scores that varied across folds but generally performed at a moderate level. They were outperformed by RF, GB and SVC but showed comparable performance to AB and NB.
 \end{itemize}
 
 We can see that Random Forest and Gradient Boosting have the most consistent performance across all folds, with scores ranging from good to excellent. They also achieved the highest accuracy among all models, indicating that they were able to correctly classify the majority of instances in the dataset. These models demonstrated strong generalization ability, suggesting that they would perform well on unseen data.
@@ -143,6 +143,8 @@ The Gaussian Naive Bayes (NB) model achieves relatively lower AUC scores across 
 Sp, in the end, the Random Forest (RF) and Gradient Boosting (GB) models consistently showcase top-tier performance across different performance categories, making them the best models among those evaluated.
 
 \section{Considerations on Neural Networks}
-Although they are not the main focus of the project, we have made some test using neural networks. However, results were not great and we preferred to put more effort on other models, leaving them out of our work. Due to that, we also preferred not to put the code into the final version of the project to avoid slow-downs on time consuming operations during the notebook execution derived from those tests.
+Although they are not the main focus of the project, we have made some test using neural networks. However, results were not great and we preferred to put more effort on other models, leaving them out of our work.
+We tried to tune the parameters of the network with some techniques, but we just achieved long training times and low results.
+Due to that, we also preferred not to put the code into the final version of the project to avoid slow-downs on time consuming operations during the notebook execution derived from those tests.
 \section{Final considerations}
-Our overall goals of models with pretty good metrics have been achieved with many different models. Furthermore, we had the chance to practice data and machine learning techniques and discover a lot of new technologies that are surely going to be useful in our future. We keep 
+Our overall goals of models with pretty good metrics have been achieved with many different models. Furthermore, we had the chance to practice data and machine learning techniques and discover a lot of new technologies that are surely going to be useful in our future. We also had the chance to work with a real dataset and understand how to deal with it, from the data cleaning to the final model evaluation.
