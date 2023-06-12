@@ -409,7 +409,36 @@ During the analysis of the numerical attributes, we discovered that about eleven
 
 Among the numerical attributes, we observed that certain attributes exhibited interesting distributions. 
 In particular, we noticed that the data were distributed almost evenly across the entire range, this attributes will help us design a good model.
+\newpage
+\subsubsection*{Example of useless feature}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{imgs/roofMatl.png}
+    \caption{Roof Material}
+    \label{fig:roofmaterial}
+\end{figure}
 
+Since this feature had only the 1 value for the 99\% of the data, we decided to drop it.
+
+\subsubsection*{Example of nice feature}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{imgs/BsmtFinType1.png}
+    \caption{BsmtFinType1}
+    \label{fig:bsmtfintype1}
+\end{figure}
+
+The feature is well distributed. Yet, we didn't check if it has a good correlation with the target variable. This will be evaluated later on during the project in the model evaluation phase.
+\newpage
+\subsubsection*{Example of numerical feature correlated with the target variable}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{imgs/BarPlotYearBuilt.png}
+    \caption{YearBuilt Bar Plot}
+    \label{fig:yearbuilt}
+\end{figure}
+
+Form this graph we can see that the year built is a good feature to predict the target variable. In fact, the houses built in between the last year of 1900s and initial 2000s are mostly of high quality. This is a good feature to predict the target variable.
 % \begin{itemize}
 % \item 1stFlrSF
 % \item BsmtUnfSF
@@ -422,5 +451,30 @@ In particular, we noticed that the data were distributed almost evenly across th
 % \end{itemize}
 % 
 % TO FINISH FROM MEREM DOC, WILL DO IT LATER TO SYNTETIZE IT IF WE NEED TO.
+\newpage
 
+\subsubsection*{Correlation Matrix}
+The correlation matrix is a useful tool to understand the relationship between the variables. In particular, it is possible to see the correlation between the variables.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imgs/CorrMatrixUnpruned.png}
+    \caption{Correlation Matrix}
+    \label{fig:corr}
+\end{figure}
+
+In this correlation matrix we can see that some features have a direct correlation with other variables. We decided to remove some of these features. In particular:
+\begin{itemize}
+    \item TotalBsmtSF 0.82 correlation with 1stFlrSF
+    \item TotRmsAbvGrd 0.83 correlation with GrLivArea
+    \item GarageCars 0.88 correlation with GarageArea
+\end{itemize}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imgs/CorrMatrix.png}
+    \caption{Correlation Matrix Pruned}
+    \label{fig:corrpruned}
+\end{figure}
+\newpage
 \emph{We make reference to the notebook to get more informations about the cited variables and graphs.}
