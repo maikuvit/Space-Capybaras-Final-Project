@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1686503694 "/home/maiku/Documents/Machine_learning/Project/latex/SpaceCapybarasReport.tex" "SpaceCapybarasReport.pdf" "SpaceCapybarasReport" 1686503697 0
+["pdflatex"] 1686513999 "/home/maiku/Documents/Machine_learning/Project/latex/SpaceCapybarasReport.tex" "SpaceCapybarasReport.pdf" "SpaceCapybarasReport" 1686514002 0
   "/home/maiku/Documents/Machine_learning/Project/latex/SpaceCapybarasReport.tex" 1686247285 1669 fbe9d2e9854124b966a588d79fdca25e ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1680514707 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1680514707 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -197,10 +197,10 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1680514707 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1685956630 4491781 539e3b5e308794ddb50e5f94f0e971f4 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1685956615 8203965 6d8394bda8b120fe6d37481f4e24f772 ""
-  "SpaceCapybarasReport.aux" 1686503697 10213 2508dc2ac42709fb39154dc04861e0e9 "pdflatex"
-  "SpaceCapybarasReport.out" 1686503697 5784 add597a15acf33d769779e0f12df67af "pdflatex"
+  "SpaceCapybarasReport.aux" 1686514002 10213 2508dc2ac42709fb39154dc04861e0e9 "pdflatex"
+  "SpaceCapybarasReport.out" 1686514002 5784 add597a15acf33d769779e0f12df67af "pdflatex"
   "SpaceCapybarasReport.tex" 1686247285 1669 fbe9d2e9854124b966a588d79fdca25e ""
-  "SpaceCapybarasReport.toc" 1686503697 2969 7a691b2d0970f68ed360dd686ce389bd "pdflatex"
+  "SpaceCapybarasReport.toc" 1686514002 2969 7a691b2d0970f68ed360dd686ce389bd "pdflatex"
   "chapters/business_understanding.tex" 1686149286 4344 b5f267f713356f01f1d3fc4f77bbf117 ""
   "chapters/data_preparation.tex" 1686493374 3664 8dabc46f471c6e543475b51a3ac48878 ""
   "chapters/data_understanding.tex" 1686503694 22405 1f820ca16709574624c15a2f837caaf4 ""
@@ -220,9 +220,9 @@
   "imgs/kfold_1.png" 1686493374 12266 33d3e4f620703256a3f2821bc1c6cca5 ""
   "imgs/kfold_box.png" 1686493374 20799 5554f883e3af9c3edf77e2e9b6a2870c ""
   "imgs/project cover.png" 1685532416 4754957 dfad783edf8b9fdc67c93b6c298f2195 ""
-  "imgs/roc high.png" 1686493374 57260 420ad4c831fc8ce165cffc2735ff73e2 ""
-  "imgs/roc low.png" 1686493374 50982 5e52748185f4277925eb6144320d9f89 ""
-  "imgs/roc medium.png" 1686493374 48235 4c480b7dd80c8e714091d6212e3289f1 ""
+  "imgs/roc high.png" 1686513998 59942 c67ed29b2ba749ecf53f3eb40ca3464a ""
+  "imgs/roc low.png" 1686513998 53953 bb5e017bf2e25a987d9c234109f5da87 ""
+  "imgs/roc medium.png" 1686513998 51066 bbe2834ba958a0dfcfbf4b51872ac7f7 ""
   (generated)
   "SpaceCapybarasReport.aux"
   "SpaceCapybarasReport.log"
